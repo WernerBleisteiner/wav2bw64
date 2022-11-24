@@ -11,7 +11,7 @@ setup(
     install_requires=[
         'ear @ git+https://github.com/felix-lau/ebu_adm_renderer.git',
         'wavinfo~=1.6.2',
-        'Flask==1.1.2'
+        'Flask==2.1.0' 
     ],
     extras_require={
         'test': [],
