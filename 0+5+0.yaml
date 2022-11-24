@@ -1,0 +1,7 @@
+- name: Surround
+  language: none
+  loudness: -23
+  apItems:
+  - name: Surround
+    routing: [1, 2, 3, 4, 5, 6]
+    type: 0+5+0
