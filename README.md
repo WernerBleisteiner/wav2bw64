@@ -3,6 +3,9 @@
 This fork fixes the recent issue with an outdated FLASK version in 'setup.py'.  
 It's now set as 'FLASK==2.1.0' (thanks to mfirth01 for finding out)  wb
 
+NOTE 1.12.22: 24bit wav inputs do not work in both CL and GUI
+See issue https://github.com/kickermeister/wav2bw64/issues/12 
+
 A simple tool to add basic [ADM](https://adm.ebu.io/) metadata to a WAV file, according to [EBU Production Profile](https://tech.ebu.ch/publications/adm-production-profile) and export it as [BW64](https://www.itu.int/rec/R-REC-BS.2088/en) file.
 
 <img width="1483" alt="adm_authoring_v0 1 0-alpha2" src="https://user-images.githubusercontent.com/5551263/111299250-038cd900-8650-11eb-896c-f2ed73575a41.png">
