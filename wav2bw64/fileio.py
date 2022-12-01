@@ -51,7 +51,7 @@ def load_block_objects(block):
     return AudioBlockFormatObjects(**kwargs)
 
 
-def generate_adm(adm_array, bitDepth=16, sampleRate=48000):
+def generate_adm(adm_array, bitDepth=24, sampleRate=48000):
     builder = ExtendedADMBuilder()
     builder.load_common_definitions()
     for ap in adm_array:
